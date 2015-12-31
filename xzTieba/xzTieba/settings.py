@@ -14,9 +14,9 @@ BOT_NAME = 'xzTieba'
 SPIDER_MODULES = ['xzTieba.spiders']
 NEWSPIDER_MODULE = 'xzTieba.spiders'
 REDIRECT_ENABLED = False
-ITEM_PIPELINES = {
-    'xzTieba.pipelines.XztiebaPipeline': 500
-}
+# ITEM_PIPELINES = {
+#     'xzTieba.pipelines.XztiebaPipeline': 500
+# }
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'xzTieba (+http://www.yourdomain.com)'
